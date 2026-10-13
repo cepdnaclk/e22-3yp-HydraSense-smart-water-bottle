@@ -1,33 +1,40 @@
+
+
 {
-  "title": "HydraSense-Smart water bottle",
+  "title": "HydraSense - Smart Water Bottle",
   "team": [
     {
-      "name": "A.S.V.Gunasiri",
+      "name": "A.S.V. Gunasiri",
       "email": "e22120@eng.pdn.ac.lk",
       "eNumber": "E/22/120"
     },
     {
-      "name": "M.A.N.P.Anawarathne",
+      "name": "H.M.H.N. Aberathna",
+      "email": "e22001@eng.pdn.ac.lk",
+      "eNumber": "E/22/001"
+    },
+    {
+      "name": "M.A.N.P. Anawarathne",
       "email": "e22027@eng.pdn.ac.lk",
       "eNumber": "E/22/027"
     },
     {
-      "name": "H.M.H.N.Aberathna",
-      "email": "e22001@eng.pdn.ac.lk",
-      "eNumber": "E/22/001"
+      "name": "P.H.D. Rathnasiri",
+      "email": "e22324@eng.pdn.ac.lk",
+      "eNumber": "E/22/324"
     }
   ],
   "supervisors": [
     {
-      "name": "Ms.Yasodha Vimukthi",
+      "name": "Ms. Yasodha Vimukthi",
       "email": "yasodhav@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
     }
   ],
-  "tags": ["Web", "Embedded Systems"]
-  "image":"cover_page.jpg",
-  "thumbnail":"thumbnail.jpg"
+  "tags": [
+    "IoT",
+    "Embedded Systems",
+    "Smart Water Bottle"
+  ],
+  "image": "HydraSense Smart Water Bottle Banner.png",
+  "thumbnail": "HydraSense Smart Water Bottle Banner.png"
 }
