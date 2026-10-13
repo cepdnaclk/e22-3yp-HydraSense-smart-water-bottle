@@ -15,18 +15,20 @@ title: Project Template
 
 ## Team
 
--E/22/120, A.S.V. Gunasiri, e22120@eng.pdn.ac.lk
--E/22/001, H.M.H.N. Aberathna, e22001@eng.pdn.ac.lk
--E/22/027, M.A.N.P. Anawarathne, e22027@eng.pdn.ac.lk
--E/22/324, P.H.D. Rathnasiri, e22324@eng.pdn.ac.lk
+- **E/22/120** – A.S.V. Gunasiri, [e22120@eng.pdn.ac.lk](mailto:e22120@eng.pdn.ac.lk)
+- **E/22/001** – H.M.H.N. Aberathna, [e22001@eng.pdn.ac.lk](mailto:e22001@eng.pdn.ac.lk)
+- **E/22/027** – M.A.N.P. Anawarathne, [e22027@eng.pdn.ac.lk](mailto:e22027@eng.pdn.ac.lk)
+- **E/22/324** – P.H.D. Rathnasiri, [e22324@eng.pdn.ac.lk](mailto:e22324@eng.pdn.ac.lk)
+
 
 **Department of Computer Engineering**  
 **University of Peradeniya**
 
-<!-- Add your project image here -->
-<!-- ![HydraSense Prototype](./images/hydrasense.png) -->
+
+![HydraSense Smart Water Bottle](./images/HydraSense%20Smart%20Water%20Bottle%20Banner.png)
 
 ---
+
 
 ## Table of Contents
 
