@@ -3,71 +3,170 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and project title
-repository-name: eYY-3yp-project-template
+repository-name: e22-3yp-HydraSense-smart-water-bottle
 title: Project Template
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
+# HydraSense – Smart Water Bottle
 
-# Project Title
+### An IoT-Based Smart Water Management Solution
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
 
-<!-- Image (photo/drawing of the final hardware) should be here -->
+-E/22/120, A.S.V. Gunasiri, e22120@eng.pdn.ac.lk
+-E/22/001, H.M.H.N. Aberathna, e22001@eng.pdn.ac.lk
+-E/22/027, M.A.N.P. Anawarathne, e22027@eng.pdn.ac.lk
+-E/22/324, P.H.D. Rathnasiri, e22324@eng.pdn.ac.lk
 
-<!-- This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/) -->
+**Department of Computer Engineering**  
+**University of Peradeniya**
 
-<!-- ![Sample Image](./images/sample.png) -->
+<!-- Add your project image here -->
+<!-- ![HydraSense Prototype](./images/hydrasense.png) -->
 
-#### Table of Contents
+---
+
+## Table of Contents
+
 1. [Introduction](#introduction)
-2. [Solution Architecture](#solution-architecture )
-3. [Hardware & Software Designs](#hardware-and-software-designs)
-4. [Testing](#testing)
-5. [Detailed budget](#detailed-budget)
-6. [Conclusion](#conclusion)
-7. [Links](#links)
+2. [Key Features](#key-features)
+3. [Solution Architecture](#solution-architecture)
+4. [Hardware and Software Designs](#hardware-and-software-designs)
+5. [Testing](#testing)
+6. [Detailed Budget](#detailed-budget)
+7. [Conclusion](#conclusion)
+8. [Links](#links)
+
+---
 
 ## Introduction
 
-Description of the real world problem and solution, impact
+Access to safe drinking water and maintaining adequate
+hydration are important aspects of everyday health.
+However, conventional water bottles generally lack
+integrated water quality monitoring, filtration status
+information, and smart hydration management.
 
+HydraSense is a proposed IoT-based smart water bottle
+that aims to integrate water filtration, selected water
+quality measurements, hydration tracking, and mobile
+application connectivity into a portable system.
+
+The project focuses on developing a practical,
+cost-effective prototype suitable for everyday use.
+
+## Key Features
+
+### 1. Smart Water Filtration
+A compact filtration mechanism intended to improve
+selected characteristics of water entering the bottle.
+
+### 2. Water Quality Monitoring
+Sensors are proposed to measure selected water
+quality parameters and provide useful information
+to the user.
+
+### 3. Hydration Tracking
+A mechanism to estimate the user's water consumption
+and support daily hydration awareness.
+
+### 4. Filter Usage Reminders
+A reminder system to help users monitor filter usage
+and plan timely replacement.
+
+### 5. Mobile Application Integration
+A companion mobile application is planned to display
+sensor readings, hydration information, and reminders.
 
 ## Solution Architecture
 
-High level diagram + description
+The proposed system consists of four main components:
+
+1. Water filtration unit
+2. Water quality and hydration monitoring sensors
+3. Microcontroller-based processing unit
+4. Mobile application
+
+Sensor measurements will be processed by the
+microcontroller and made available through the
+user interface.
+
 
 ## Hardware and Software Designs
 
-Detailed designs with many sub-sections
+### Hardware Components
+
+The proposed hardware design includes:
+
+- Microcontroller
+- Water quality monitoring sensors
+- Water consumption measurement mechanism
+- Compact filtration unit
+- Power supply
+- Bottle enclosure
+
+Final component selection will depend on
+prototype testing, cost, and feasibility.
+
+### Software Components
+
+The software is planned to support:
+
+- Sensor data acquisition
+- Water consumption calculations
+- Filter usage monitoring
+- Mobile application communication
+- Data visualization and notifications
 
 ## Testing
 
-Testing done on hardware and software, detailed + summarized results
+The following testing activities are planned:
 
-## Detailed budget
+- Sensor accuracy and calibration
+- Water quality measurement validation
+- Filtration performance evaluation
+- Hydration tracking accuracy
+- Power consumption testing
+- Mobile application connectivity
+- Overall system integration
 
-All items and costs
+Testing results will be documented as the
+prototype is developed.
 
-| Item          | Quantity  | Unit Cost  | Total  |
-| ------------- |:---------:|:----------:|-------:|
-| Sample item   | 5         | 10 LKR     | 50 LKR |
+## Detailed Budget
+
+The estimated project budget is LKR 20,000–30,000.
+
+| Component | Quantity | Cost (LKR) |
+|-----------|----------|------------|
+| Microcontroller | TBD | TBD |
+| Water quality sensors | TBD | TBD |
+| Filtration unit | TBD | TBD |
+| Hydration measurement components | TBD | TBD |
+| Power supply | TBD | TBD |
+| Bottle and enclosure | TBD | TBD |
+| Other materials | TBD | TBD |
+
+The detailed budget will be updated after
+component selection and purchasing.
 
 ## Conclusion
 
-What was achieved, future developments, commercialization plans
+HydraSense aims to develop an affordable,
+portable smart water bottle integrating
+filtration, water quality awareness,
+hydration tracking, and digital monitoring.
+
+Future development will focus on improving
+measurement reliability, filtration performance,
+battery efficiency, and user experience.
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+- [Project Repository](https://github.com/cepdnaclk/e22-3yp-HydraSense-smart-water-bottle)
+- [Project Page](https://cepdnaclk.github.io/e22-3yp-HydraSense-smart-water-bottle/)
+- [Department of Computer Engineering](https://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
-[//]: # (Please refer this to learn more about Markdown syntax)
-[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
