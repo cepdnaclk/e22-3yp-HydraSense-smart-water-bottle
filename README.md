@@ -1,122 +1,187 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+# 💧 HydraSense — Smart Water Bottle
 
-HydraSense – Smart Water Bottle
+<p align="center">
+  <img src="https://img.shields.io/badge/Embedded-Systems-0078D4?style=for-the-badge" alt="Embedded Systems"/>
+  <img src="https://img.shields.io/badge/IoT-Smart%20Hydration-00A896?style=for-the-badge" alt="IoT"/>
+  <img src="https://img.shields.io/badge/Project-2026--2027-7B61FF?style=for-the-badge" alt="Project"/>
+</p>
 
-Introduction
+<p align="center">
+  <b>Smarter Hydration. Better Awareness. Connected Living.</b>
+  <br/>
+  An intelligent water bottle that brings hydration tracking, water-quality sensing, and filter usage monitoring together in one portable system.
+</p>
 
-HydraSense is an embedded systems project that aims to make everyday hydration smarter by integrating water consumption monitoring, water-quality parameter sensing, and filter usage tracking into a smart water bottle.
+---
 
-Conventional water bottles primarily serve as water storage containers and do not provide users with information about their drinking habits, selected water-quality parameters, or filter usage. HydraSense aims to address these limitations through an intelligent and user-friendly design that combines embedded sensors, electronic components, and a built-in replaceable filter.
+## 🌊 About HydraSense
 
-The system is designed to help users monitor their water consumption, view relevant sensor readings, and keep track of filter usage. By integrating these features into a portable bottle, HydraSense explores how embedded systems and sensor technologies can support healthier hydration habits and more informed water-use decisions.
+**HydraSense** is a third-year Embedded Systems project developed at the Department of Computer Engineering, University of Peradeniya, Sri Lanka.
 
-The project focuses on designing and developing a working prototype, integrating hardware and software components, and testing the functionality and reliability of the system.
+Traditional water bottles store water, but they do not tell us how much we drink, provide electronic measurements of selected water-quality parameters, or help us track filter usage.
 
-Project Objectives
+HydraSense explores a smarter approach by integrating an embedded sensing system, a replaceable built-in filter, and connected monitoring features into a single bottle.
 
-- Develop a smart water bottle that monitors water consumption.
-- Integrate sensors to measure selected water-quality parameters.
-- Implement a mechanism to track filter usage.
-- Design a compact and practical embedded system suitable for a portable bottle.
-- Test and evaluate the prototype's functionality and performance.
+Our goal is to develop a practical prototype that helps users understand their hydration habits, observe relevant sensor readings, and manage filter replacement more conveniently.
 
-Key Features
+> 💡 **Our vision:** Turn an everyday water bottle into an intelligent hydration companion.
 
-- Hydration Monitoring: Designed to track the user's water consumption.
-- Water-Quality Monitoring: Incorporates sensors for selected water-quality parameters.
-- Filter Usage Tracking: Aims to monitor filter usage and indicate when maintenance or replacement may be required.
-- Integrated Embedded System: Combines sensing, processing, and electronic components in a portable design.
-- User-Friendly Operation: Aims to present useful information in an accessible format.
+## ✨ Key Features
 
-System Overview
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💧 Hydration Tracking</h3>
+      Monitor changes in bottle weight to estimate water consumption and help users understand their daily drinking habits.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔬 Water-Quality Sensing</h3>
+      Integrate sensors for selected parameters such as temperature, pH, total dissolved solids (TDS), and turbidity.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>♻️ Filter Usage Monitoring</h3>
+      Track estimated filter usage and provide replacement reminders based on configured usage limits.
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 Connected Monitoring</h3>
+      Explore Bluetooth or Wi-Fi connectivity for viewing measurements and hydration information through a user interface.
+    </td>
+  </tr>
+</table>
 
-HydraSense combines a water bottle, sensing components, a microcontroller, and a replaceable filter in a single prototype. Sensor readings and consumption measurements are processed by the embedded controller to support hydration monitoring and system feedback.
+## ⚙️ How It Works
 
-The prototype will be evaluated through functional testing and measurements appropriate to the implemented features. Water-quality readings and filter performance will require suitable testing and validation before any safety-related claims can be made.
+HydraSense combines sensing, embedded processing, and user feedback to support smart hydration monitoring.
 
-Project Team
-
-Student Name| Registration Number| Email
-H. M. H. N. Aberathna| E/22/001| e22001@eng.pdn.ac.lk
-M. A. N. P. Anawarathne| E/22/027| e22027@eng.pdn.ac.lk
-A. S. V. Gunasiri| E/22/120| e22120@eng.pdn.ac.lk
-P. H. D. Rathnasiri| E/22/324| e22324@eng.pdn.ac.lk
-
-Technologies and Components
-
-The project involves embedded systems development, sensor integration, microcontroller programming, electronic circuit design, and hardware testing.
-
-The final list of microcontrollers, sensors, programming languages, and other hardware components will be updated as the prototype design is finalized.
-
-Project Status
-
-HydraSense is being developed as a third-year embedded systems project. The design, implementation, integration, and testing activities will be documented as the prototype progresses.
-
-Repository Structure
-
-- "docs/" – Project documentation and GitHub Pages content.
-- Source code and hardware-related files – Embedded software, circuit designs, and other implementation resources as added to the repository.
-
-Future Improvements
-
-- Improve hydration tracking accuracy.
-- Refine sensor calibration and water-quality measurements.
-- Develop clear user feedback for hydration and filter maintenance.
-- Optimize power consumption and physical integration.
-- Expand prototype testing and performance evaluation.
-
-Acknowledgements
-
-This project is developed as part of the Embedded Systems project programme at the Department of Computer Engineering, Faculty of Engineering, University of Peradeniya, Sri Lanka.
-
-### Enable GitHub Pages
-
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
-
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
-
-### Special Configurations
-
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
-
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
+```mermaid
+flowchart TD
+    A["💧 HydraSense Bottle"] --> B["Embedded Sensors"]
+    B --> C["ESP32 Microcontroller"]
+    C --> D["Data Processing"]
+    D --> E["Hydration Monitoring"]
+    D --> F["Water-Quality Readings"]
+    D --> G["Filter Usage Tracking"]
+    E --> H["📱 User Interface"]
+    F --> H
+    G --> H
 ```
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
+*The diagram illustrates the intended system architecture. Final connections and implemented features may change during prototype development.*
 
-### Page Theme
+## 🧪 Technologies & Components
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+| Category | Technologies / Components |
+|---|---|
+| Microcontroller | ESP32 |
+| Hydration sensing | Load cell and weight measurement |
+| Water-quality sensing | Temperature, pH, TDS, and turbidity sensors |
+| Connectivity | Bluetooth / Wi-Fi |
+| Filtration | Replaceable internal filter |
+| Development | Embedded programming, sensor integration, and circuit testing |
+
+*The component list represents the planned system design and should be updated to reflect the hardware and software actually implemented.*
+
+## 🎯 Project Objectives
+
+- Develop an embedded system for monitoring water consumption.
+- Integrate sensors for measuring selected water-quality parameters.
+- Implement a method for estimating filter usage and indicating replacement needs.
+- Explore wireless communication for convenient access to system measurements.
+- Build a compact and practical smart bottle prototype.
+- Evaluate the accuracy, reliability, and limitations of the implemented features.
+
+## 👥 Meet the Team
+
+We are a team of Computer Engineering undergraduates at the University of Peradeniya, working together to explore embedded systems, sensing technologies, and connected devices.
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <b>H. M. H. N. Aberathna</b>
+      <br/><br/>
+      <code>E/22/001</code>
+      <br/>
+      <a href="mailto:e22001@eng.pdn.ac.lk">Email</a>
+    </td>
+    <td align="center" width="25%">
+      <b>M. A. N. P. Anawarathne</b>
+      <br/><br/>
+      <code>E/22/027</code>
+      <br/>
+      <a href="mailto:e22027@eng.pdn.ac.lk">Email</a>
+    </td>
+    <td align="center" width="25%">
+      <b>A. S. V. Gunasiri</b>
+      <br/><br/>
+      <code>E/22/120</code>
+      <br/>
+      <a href="mailto:e22120@eng.pdn.ac.lk">Email</a>
+    </td>
+    <td align="center" width="25%">
+      <b>P. H. D. Rathnasiri</b>
+      <br/><br/>
+      <code>E/22/324</code>
+      <br/>
+      <a href="mailto:e22324@eng.pdn.ac.lk">Email</a>
+    </td>
+  </tr>
+</table>
+
+## 🚀 Development Roadmap
+
+- [ ] Finalize system requirements and hardware design
+- [ ] Integrate the microcontroller and sensors
+- [ ] Implement hydration measurement and consumption estimation
+- [ ] Integrate water-quality sensing
+- [ ] Implement filter usage tracking
+- [ ] Develop the user interface and wireless communication
+- [ ] Test individual components and the integrated prototype
+- [ ] Document results, limitations, and future improvements
+
+*Update the checklist as each milestone is completed.*
+
+## 🔍 Testing & Validation
+
+Testing will focus on the functionality and reliability of the integrated system.
+
+- **Hydration tracking:** Compare estimated consumption against measured reference volumes.
+- **Sensor performance:** Evaluate readings against appropriate reference instruments or calibration procedures.
+- **Filter monitoring:** Verify usage calculations and replacement reminders.
+- **System integration:** Test communication, power consumption, and operation under normal use conditions.
+
+Sensor readings alone do not establish that water is safe to drink. Any claims about contaminant removal or filter effectiveness require appropriate independent testing.
+
+## 📂 Repository Structure
+
+```text
+HydraSense/
+├── docs/
+│   ├── index.json
+│   └── _config.yml
+├── README.md
+└── [source code and hardware files]
+```
+
+The repository will contain project documentation, embedded software, hardware designs, and testing resources as development progresses.
+
+## 🔮 Future Possibilities
+
+- Personalized hydration goals and reminders
+- Historical hydration data and visual dashboards
+- Improved sensor calibration and measurement accuracy
+- Battery-life optimization and compact circuit integration
+- More detailed filter maintenance and performance monitoring
+
+## 🎓 Acknowledgements
+
+Developed as part of the Embedded Systems project programme at the **Department of Computer Engineering, Faculty of Engineering, University of Peradeniya, Sri Lanka**.
+
+---
+
+<p align="center">
+  <b>💧 HydraSense — Making Every Sip Count.</b>
+  <br/><br/>
+  <i>Engineering a smarter way to stay hydrated.</i>
+</p>
